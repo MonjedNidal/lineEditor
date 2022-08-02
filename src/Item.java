@@ -5,15 +5,15 @@ public class Item {
     private String line;
     private Item next,prev;
 
-    public Item(String name){
-        this.line=name;
+    public Item(String line){
+        this.line=line;
     }
 
-    public void setName(String name){
-        this.line=name;
+    public void setLine(String line){
+        this.line=line;
     }
 
-    public String getName(){
+    public String getLine(){
         return line;
     }
 
