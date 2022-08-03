@@ -74,4 +74,11 @@ public class linkedList {
             System.out.println(current.getLine());
         }
     }
+
+    public boolean isHead (){
+        return root.getPrev() == null;
+    }
+    public boolean isTail (){
+        return root.getNext() == null;
+    }
 }
